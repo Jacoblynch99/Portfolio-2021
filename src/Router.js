@@ -2,6 +2,9 @@ import React from 'react'
 import { Switch, Route, Redirect } from 'react-router'
 import cookie from 'cookie'
 import UserLanding from './components/UserLanding'
+import Contact from './components/Contact'
+import AboutMe from './components/AboutMe'
+import Projects from './components/Projects'
 
 const Router = () => {
     const checkAuth = () => {
@@ -22,6 +25,9 @@ const Router = () => {
 
     return (
         <Switch>
+            <Route exact path="/Contact" component={Contact} />
+            <Route exact path="/AboutMe" component={AboutMe} />
+            <Route exact path="/Projects" component={Projects} />
             <Route exact path="/" component={UserLanding} />
         </Switch>
     )
