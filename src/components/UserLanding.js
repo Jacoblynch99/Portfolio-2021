@@ -17,7 +17,14 @@ import {
 import React, { useState } from 'react'
 
 const UserLanding = (props) => {
-    return <h1>Test</h1>
+    return (
+        <div>
+            <h1>Home</h1>
+            <h1>About Me</h1>
+            <h1>Projects</h1>
+            <h1>Contact</h1>
+        </div>
+    )
 }
 
 export default UserLanding
