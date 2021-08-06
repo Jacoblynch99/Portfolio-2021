@@ -1,21 +1,8 @@
 import React, { useState } from 'react'
+import CustomButton from './CustomButton'
 
 const AboutMe = (props) => {
-    return (
-        <div>
-            <Grid
-                container
-                direction="row"
-                justifyContent="center"
-                alignItems="center"
-            >
-                <CustomButton linkpath={'/'} content={'Home'} />
-                <CustomButton linkpath={'/Contact'} content={'Contact'} />
-                <CustomButton linkpath={'/AboutMe'} content={'About Me'} />
-                <CustomButton linkpath={'/Projects'} content={'Projects'} />
-            </Grid>
-        </div>
-    )
+    return <div>TESTT</div>
 }
 
 export default AboutMe

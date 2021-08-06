@@ -5,7 +5,7 @@ import { Provider } from 'react-redux'
 import store from './redux/store'
 import { ThemeProvider } from '@material-ui/core'
 import { createMuiTheme } from '@material-ui/core/styles'
-import { Navbar } from '../src/components/NavBar'
+import NavBar from '../src/components/NavBar'
 
 function App() {
     let [prefersDarkMode, setMode] = useState(true)
@@ -64,7 +64,7 @@ function App() {
         <Provider store={store}>
             <BrowserRouter>
                 <ThemeProvider theme={theme}>
-                    <Navbar />
+                    <NavBar />
                     <Router />
                 </ThemeProvider>
             </BrowserRouter>

@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import CustomButton from './CustomButton'
 
 const NavBar = (props) => {
     return (
