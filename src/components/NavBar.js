@@ -20,7 +20,7 @@ import {
 
 const NavBar = (props) => {
     return (
-        <div>
+        <div style={{ background: 'green' }}>
             <Grid
                 container
                 direction="row"
