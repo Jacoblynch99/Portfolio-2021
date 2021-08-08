@@ -21,11 +21,11 @@ import {
 const Projects = (props) => {
     return (
         <Grid>
-            <Grid></Grid>
-            <Grid></Grid>
-            <Grid></Grid>
-            <Grid></Grid>
-            <Grid></Grid>
+            <Grid>1</Grid>
+            <Grid>2</Grid>
+            <Grid>3</Grid>
+            <Grid>4</Grid>
+            <Grid>5</Grid>
         </Grid>
     )
 }
