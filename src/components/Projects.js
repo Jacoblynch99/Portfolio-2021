@@ -20,7 +20,12 @@ import {
 
 const Projects = (props) => {
     return (
-        <Grid>
+        <Grid
+            container
+            direction="row"
+            justifyContent="center"
+            alignItems="center"
+        >
             <Grid>1</Grid>
             <Grid>2</Grid>
             <Grid>3</Grid>
