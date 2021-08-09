@@ -20,64 +20,65 @@ import {
 
 const Projects = (props) => {
     return (
-        <Grid
-            container
-            direction="column"
-            justifyContent="center"
-            alignItems="center"
-            style={{ width: '100vw' }}
-        >
+        <Container style={{ width: '100vw' }}>
             <Grid
                 container
-                direction="row"
+                direction="column"
                 justifyContent="center"
-                alignItems="center"
+                alignItems="stretch"
             >
-                <div>1</div>
-                <div>2</div>
-                <div>3</div>
+                <Grid
+                    container
+                    direction="row"
+                    justifyContent="center"
+                    alignItems="center"
+                >
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                </Grid>
+                <Grid
+                    container
+                    direction="row"
+                    justifyContent="center"
+                    alignItems="center"
+                >
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                </Grid>
+                <Grid
+                    container
+                    direction="row"
+                    justifyContent="center"
+                    alignItems="center"
+                >
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                </Grid>
+                <Grid
+                    container
+                    direction="row"
+                    justifyContent="center"
+                    alignItems="center"
+                >
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                </Grid>
+                <Grid
+                    container
+                    direction="row"
+                    justifyContent="center"
+                    alignItems="center"
+                >
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                </Grid>
             </Grid>
-            <Grid
-                container
-                direction="row"
-                justifyContent="center"
-                alignItems="center"
-            >
-                <div>1</div>
-                <div>2</div>
-                <div>3</div>
-            </Grid>
-            <Grid
-                container
-                direction="row"
-                justifyContent="center"
-                alignItems="center"
-            >
-                <div>1</div>
-                <div>2</div>
-                <div>3</div>
-            </Grid>
-            <Grid
-                container
-                direction="row"
-                justifyContent="center"
-                alignItems="center"
-            >
-                <div>1</div>
-                <div>2</div>
-                <div>3</div>
-            </Grid>
-            <Grid
-                container
-                direction="row"
-                justifyContent="center"
-                alignItems="center"
-            >
-                <div>1</div>
-                <div>2</div>
-                <div>3</div>
-            </Grid>
-        </Grid>
+        </Container>
     )
 }
 
