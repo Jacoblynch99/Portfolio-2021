@@ -22,15 +22,61 @@ const Projects = (props) => {
     return (
         <Grid
             container
-            direction="row"
+            direction="column"
             justifyContent="center"
             alignItems="center"
+            style={{ width: '100vw' }}
         >
-            <Grid>1</Grid>
-            <Grid>2</Grid>
-            <Grid>3</Grid>
-            <Grid>4</Grid>
-            <Grid>5</Grid>
+            <Grid
+                container
+                direction="row"
+                justifyContent="center"
+                alignItems="center"
+            >
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+            </Grid>
+            <Grid
+                container
+                direction="row"
+                justifyContent="center"
+                alignItems="center"
+            >
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+            </Grid>
+            <Grid
+                container
+                direction="row"
+                justifyContent="center"
+                alignItems="center"
+            >
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+            </Grid>
+            <Grid
+                container
+                direction="row"
+                justifyContent="center"
+                alignItems="center"
+            >
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+            </Grid>
+            <Grid
+                container
+                direction="row"
+                justifyContent="center"
+                alignItems="center"
+            >
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+            </Grid>
         </Grid>
     )
 }
