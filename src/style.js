@@ -1,15 +1,11 @@
 import { makeStyles } from '@material-ui/core/styles'
+import { BorderColor } from '@material-ui/icons'
 
 const useStyles = makeStyles({
-    avatarIcon: {
-        margin: 10,
-        flexGrow: 1,
-    },
-    navTitle: {
-        flexGrow: 1,
-    },
-    menuIconStyle: {
-        margin: 10,
+    infoCard: {
+        height: '.5rem',
+        width: '.5rem',
+        BorderColor: 'black',
     },
 })
 
